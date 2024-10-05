@@ -1,0 +1,26 @@
+# Ignore the Garmin data CSV output files
+*.csv
+
+# Ignore logs
+*.log
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore virtual environments
+venv/
+env/
+.venv/
+
+# Ignore system files (Windows/macOS specific)
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter Notebook checkpoints (if you use Jupyter)
+.ipynb_checkpoints/
+
+# Ignore temporary files created by editors or OS
+*.swp
+*.bak
+*~
